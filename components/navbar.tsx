@@ -128,7 +128,7 @@ export function Navbar() {
                 <NavigationMenu className="flex-none bg-green-700 flex justify-center">
                     <NavigationMenuList>
                         <NavigationMenuItem>
-                            <Link href="/" legacyBehavior passHref>
+                            <Link href="/" legacyBehavior>
                                 <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
                                     Accueil
                                 </div>
